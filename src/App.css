@@ -1,0 +1,33 @@
+#drum-machine {
+  height: 100vh;
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+#display {
+  border: 1px solid red;
+  border-radius: 25px;
+  position: fixed;
+  top: 100px;
+  width: 200px;
+  height: 48px;
+  text-align:center;
+  padding-top: 32px;
+}
+
+.drum-pad {
+  border: 1px solid red;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.pressed {
+  background-color: red;
+  color: white;
+}
+
+.drum-pad:hover {
+  background-color: red;
+  color: white;
+}
